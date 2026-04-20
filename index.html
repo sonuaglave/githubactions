@@ -3,94 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AWS S3 Static Website</title>
-
+    <title>AWS S3 Deployment</title>
     <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-        }
-
-        body{
+        body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #1e3c72, #2a5298);
-            height:100vh;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            color:white;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            text-align: center;
+            padding-top: 100px;
+            color: white;
         }
 
-        .container{
-            background: rgba(255,255,255,0.12);
-            padding:40px;
-            border-radius:18px;
-            text-align:center;
-            width:80%;
-            max-width:650px;
-            box-shadow:0 8px 20px rgba(0,0,0,0.25);
-            backdrop-filter: blur(8px);
+        .box {
+            background: rgba(255,255,255,0.15);
+            padding: 30px;
+            width: 60%;
+            margin: auto;
+            border-radius: 15px;
         }
 
-        h1{
-            font-size:42px;
-            margin-bottom:15px;
+        h1 {
+            font-size: 40px;
         }
 
-        h2{
-            font-size:24px;
-            margin-bottom:20px;
-            color:#ffd369;
-        }
-
-        p{
-            font-size:18px;
-            line-height:1.6;
-            margin-bottom:12px;
-        }
-
-        .btn{
-            display:inline-block;
-            margin-top:20px;
-            padding:12px 28px;
-            background:#ffd369;
-            color:#222;
-            text-decoration:none;
-            font-weight:bold;
-            border-radius:8px;
-            transition:0.3s;
-        }
-
-        .btn:hover{
-            background:white;
-            transform:scale(1.05);
-        }
-
-        footer{
-            margin-top:25px;
-            font-size:14px;
-            opacity:0.9;
+        p {
+            font-size: 20px;
         }
     </style>
 </head>
-
 <body>
-
-    <div class="container">
-        <h1>Welcome to AWS S3 🚀</h1>
-        <h2>Static Website Deployment</h2>
-
-        <p>This website is hosted on Amazon S3 Bucket.</p>
-        <p>Automated deployment using GitHub Actions and Python Boto3.</p>
-        <p>Created for Cloud Computing Practical.</p>
-
-        <a href="#" class="btn">Explore More</a>
-
-        <footer>
-            © 2026 Vishal Bafna | Symbiosis Project
-        </footer>
+    <div class="box">
+        <h1>Hello from AWS S3 🚀</h1>
+        <p>Website deployed using GitHub Actions + Python + Boto3</p>
     </div>
-
 </body>
 </html>
